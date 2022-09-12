@@ -1,0 +1,19 @@
+.login-form {
+    .form-group {
+        &.remember {
+            font-size: 14px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &.not-a-member {
+            font-size: 14px;
+            display: flex;
+            justify-content: center;
+
+            span {
+                margin-right: 5px;
+            }
+        }
+    }
+}

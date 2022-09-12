@@ -1,0 +1,13 @@
+.register-form {
+    .form-group {
+        &.already-have-account {
+            font-size: 14px;
+            display: flex;
+            justify-content: center;
+
+            span {
+                margin-right: 5px;
+            }
+        }
+    }
+}
